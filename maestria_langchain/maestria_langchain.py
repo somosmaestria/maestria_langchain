@@ -10,15 +10,6 @@ import json
 import ast
 
 
-class Classification(BaseModel):
-    """
-    Schema for extracting the sentiment of an email
-    The sentiment can be positive, negative, or neutral.
-    """
-
-    country: str = Field(description="return the country of the email")
-    country_state: str = Field(description="return the state of the email")
-
 
 class MaestriaLLM(LLM):
     model: str = "deepseek-r1:8b"
