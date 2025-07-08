@@ -1,0 +1,12 @@
+name = "maestria_langchain
+version = "0.1.0"
+description = "Maestria LLMs"
+authors = [{ name = "Jonathan Hidalgo", email = "jonathan@ilustraviz.com" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = [langchain]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
